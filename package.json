@@ -1,6 +1,7 @@
 {
   "name": "@wsy998/logger",
   "version": "1.0.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/wsy9981999/logger.git"
