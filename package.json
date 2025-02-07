@@ -1,6 +1,10 @@
 {
   "name": "@wsy998/logger",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wsy9981999/logger.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
