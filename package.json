@@ -1,0 +1,25 @@
+{
+  "name": "@wsy998/logger",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.1.0",
+    "vite-plugin-dts": "^4.5.0"
+  },
+  "files": ["dist"],
+  "main": "./dist/logger.umd.cjs",
+  "module": "./dist/logger.js",
+  "types": "./dist/logger.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/logger.js",
+      "require": "./dist/logger.umd.cjs"
+    }
+  }
+}
